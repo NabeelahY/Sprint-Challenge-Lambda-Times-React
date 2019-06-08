@@ -111,3 +111,23 @@ export const Temp = styled(Date)`
   text-align: right;
   margin-right: 25px;
 `;
+
+export const FormStyle = styled.form`
+  input,
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    border:1px #ddd solid;
+    border-radius: 0.2rem;
+  }
+    button {
+      color: #fff;
+      background-color: #333;
+      border: none;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+`;
